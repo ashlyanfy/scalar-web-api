@@ -1,17 +1,12 @@
 # API Documentation
 
 ## Run locally
-```bash
-dotnet run
 
-
-
-`/docs` отображает Scalar UI и группы по модулям (через `[Tags]`).  
-JWT работает из UI (кнопка **Authorize**, Bearer).  
-Добавление/удаление контроллеров авто-отражается (генерация OpenAPI из кода).  
-README с инструкцией добавлен.  
-Внутренние эндпоинты скрыты (атрибут или фильтр).  
-Работает в Docker (обычный запуск веб-приложения).
+JWT works from the UI (Authorize button, Bearer).
+Adding/removing controllers is automatically reflected (OpenAPI generation from code).
+A README with instructions has been added.
+Internal endpoints are hidden (attribute or filter).
+Works in Docker (standard web app launch).
 
 
 
